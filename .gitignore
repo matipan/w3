@@ -1,2 +1,4 @@
-hardhat-tutorial/node_modules/*
-hardhat-tutorial/cache/*
+hardhat-tutorial/node_modules/
+hardhat-tutorial/cache/
+hardhat-tutorial/artifacts/
+hardhat-boilerplate

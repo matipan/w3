@@ -8,7 +8,4 @@ in
       pkgs.git
       pkgs.nodejs-18_x
     ];
-    shellHook = ''
-      /usr/bin/zsh
-    '';
   }  
