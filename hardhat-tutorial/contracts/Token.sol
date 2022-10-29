@@ -40,7 +40,7 @@ contract Token {
 	// Read only function to retrieve the token balance of a given account.
 	// The `view` modifier indicates that it doesn't modify the contract's
 	// state, which allows us to call it without executing a transaction.
-	function balanceOf(address account) external view returns (uin256) {
+	function balanceOf(address account) external view returns (uint256) {
 		return balances[account];
 	}
 }
